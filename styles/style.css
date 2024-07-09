@@ -26,47 +26,82 @@
     box-sizing: border-box;
 }
 h1{
-font-weight: 800;
-font-size: 124px;
-line-height: 140px;
-color: #1B1B1D;
-margin-top: 0px;
-margin-bottom: 0px;
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 140px;
+    color: #1B1B1D;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h2{
-font-weight: 800;
-font-size: 64px;
-line-height: 70px;
-margin-top: 0px;
-margin-bottom: 0px;
-color: #1B1B1D;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1B1B1D;
 }
 h3{
-font-weight: 600;
-font-size: 36px;
-line-height: 52px;
-margin-top: 0px;
-margin-bottom: 0px;
-color: #1B1B1D;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1B1B1D;
 }
 h4{
-font-weight: 600;
-font-size: 24px;
-line-height: 30px;
-margin-top: 0px;
-margin-bottom: 0px;
-color: #1B1B1D;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #1B1B1D;
 }
 p{
-font-weight: 400;
-font-size: 24px;
-line-height: 34.68px;
-color: #64646A;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    color: #64646A;
 }
-
 body{
     font-family: "Jost", "Open Sans", sans-serif;
     font-weight: 400;
+}
+.buttonnn{
+    background: #FFFFFF;
+    position: absolute;
+    border: 0px;
+    margin-left: 0px;
+}
+.buttonn{
+    background: #FFFFFF;
+    border: 0px;
+    border-radius: 30px;
+    padding: 16px 16px;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+}
+.button{
+    background: #1B1B1D;
+    border-radius: 126px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+button:hover{
+    background: #EEEFF1;
+    border: 1px;
+}
+a:hover{
+    color:black;
+}
+.left5 > div > a:hover{
+    color: black;
+}
+.right5 > div > a:hover{
+    color: black; 
 }
 .rectangle{
     position: relative;
@@ -90,12 +125,12 @@ nav > section{
 }
 nav > section > a{
     padding: 17px 0px;
-height: 22px;
-font-weight: 500;
-font-size: 15px;
-line-height: 22px;
-color: #1B1B1D;
-text-decoration: none;
+    height: 22px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1B1B1D;
+    text-decoration: none;
 }
 a ~ a{
     margin-left: 40px;
@@ -131,34 +166,33 @@ p + button{
     margin-top: 60px;
 }
 .article11{
-position: absolute;
-width: 626px;
-height: 650px;
-left: 0px;
-top: 0px;
-bottom: 62px;
+    position: absolute;
+    width: 626px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+    bottom: 62px;
 }
 .article12{
-position: absolute;
-width: 680.25px;
-height: 712px;
-left: 610px;
-top: 0px;
+    position: absolute;
+    width: 680.25px;
+    height: 712px;
+    left: 610px;
+    top: 0px;
 }
-
 .img1{
-position: absolute;
-width: 272.1px;
-height: 140px;
-left: 42.76px;
-top: 391px;
+    position: absolute;
+    width: 272.1px;
+    height: 140px;
+    left: 42.76px;
+    top: 391px;
 }
 .img2{
-position: absolute;
-width: 139.94px;
-height: 113px;
-left: 507.27px;
-top: 31px;
+    position: absolute;
+    width: 139.94px;
+    height: 113px;
+    left: 507.27px;
+    top: 31px;
 }
 .img3{
     position: absolute;
@@ -168,11 +202,11 @@ top: 31px;
     top: 92px;
 }
 .section2{
-position: absolute;
-width: 1290px;
-height: 794px;
-left: 100px;
-top: 1186px;
+    position: absolute;
+    width: 1290px;
+    height: 794px;
+    left: 100px;
+    top: 1186px;
 }
 .section21{
     text-align: center;
@@ -188,66 +222,66 @@ top: 1186px;
 }
 .section22{
     display: flex;
-position: absolute;
-width: 1290px;
-height: 540px;
-left: 0px;
-top: 254px;
+    position: absolute;
+    width: 1290px;
+    height: 540px;
+    left: 0px;
+    top: 254px;
 }
 .article21{
     position: absolute;
     width: 394px;
-height: 540px;
+    height: 540px;
     left: 0px;
 }
 .article22{
     position: absolute;
     width: 394px;
-height: 540px;
+    height: 540px;
     left: 423px;
 }
 .article23{
     position: absolute;
     width: 394px;
-height: 540px;
+    height: 540px;
     left: 846px;
 }
 .art{
-gap: 8px;
-position: absolute;
-width: 316.55px;
-height: 130px;
-left: 100px;
-top: 60px;
+    gap: 8px;
+    position: absolute;
+    width: 316.55px;
+    height: 130px;
+    left: 100px;
+    top: 60px;
 }
 .art ~ img{
-position: absolute;
-width: 150.38px;
-height: 150px;
-left: 180.31px;
-top: 250px;
+    position: absolute;
+    width: 150.38px;
+    height: 150px;
+    left: 180.31px;
+    top: 250px;
 }
 .art ~ button{
     position: absolute;
-width: 250.39px;
-height: 60px;
-left: 132.22px;
-top: 460px;
+    width: 250.39px;
+    height: 60px;
+    left: 132.22px;
+    top: 460px;
 }
 .section3{
     display: flex;
-position: absolute;
-width: 1290px;
-height: 471.27px;
-left: 100px;
-top: 2120px;
+    position: absolute;
+    width: 1290px;
+    height: 471.27px;
+    left: 100px;
+    top: 2120px;
 }
 .section3 > img{
-position: absolute;
-width: 680px;
-height: 471.27px;
-left: 0px;
-top: 0px;
+    position: absolute;
+    width: 680px;
+    height: 471.27px;
+    left: 0px;
+    top: 0px;
 }
 .section3 > article{
     position: absolute;
@@ -263,11 +297,11 @@ top: 0px;
     margin-top: 60px;
 }
 .section4{
-position: absolute;
-width: 1290px;
-height: 988px;
-left: 100px;
-top: 2731.27px;
+    position: absolute;
+    width: 1290px;
+    height: 988px;
+    left: 100px;
+    top: 2731.27px;
 }
 .section41{
     position: absolute;
@@ -276,9 +310,9 @@ top: 2731.27px;
     left: 378px;
     top: 0px;
     text-align: center;
-    }
+}
 .section41 > h2{
-margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 .mySwiper{
     display: flex;
@@ -313,19 +347,19 @@ margin-bottom: 40px;
 }
 .swiper-wrapper{
     display: flex;
-position: absolute;
-width: 1030px;
-height: 648px;
-left: 130px;
-top: 0px;
+    position: absolute;
+    width: 1030px;
+    height: 648px;
+    left: 130px;
+    top: 0px;
 }
 .swiper-slide{
     position: absolute;
-width: 500px;
-height: 648px;
-top: 0px;
-left: 265px;
-background: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    width: 500px;
+    height: 648px;
+    top: 0px;
+    left: 265px;
+    background: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
     filter: drop-shadow(0px 20px 60px rgba(163, 168, 179, 0.15));
     border-radius: 16px;
 }
@@ -337,15 +371,15 @@ background: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 .swiper-slide > section{
     display: flex;
     gap: 16px;
-position: absolute;
-width: 387px;
-height: 242px;
-left: 42.69px;
-top: 364px;
+    position: absolute;
+    width: 387px;
+    height: 242px;
+    left: 42.69px;
+    top: 364px;
 }
 .swiper-slide > section > img{
-width: 120px;
-height: 24px;
+    width: 120px;
+    height: 24px;
 }
 .swiper-slide > p{
     position: absolute;
@@ -354,44 +388,44 @@ height: 24px;
     height: 180px;
     left: 42.69px;
     color: #1B1B1D;
-font-weight: 400;
-font-size: 20px;
-line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
 }
 .section5{
-position: absolute;
-width: 1290px;
-height: 679.91px;
-left: 100px;
-top: 3859.27px;
+    position: absolute;
+    width: 1290px;
+    height: 679.91px;
+    left: 100px;
+    top: 3859.27px;
 }
 .section51{
     display: flex;
-position: absolute;
-width: 1290px;
-height: 340px;
-left: 0px;
-top: 0px;
+    position: absolute;
+    width: 1290px;
+    height: 340px;
+    left: 0px;
+    top: 0px;
 }
 .section52{
     display: flex;
-position: absolute;
-width: 1290px;
-height: 250px;
-left: 0px;
-top: 429.91px;
+    position: absolute;
+    width: 1290px;
+    height: 250px;
+    left: 0px;
+    top: 429.91px;
 }
 .left5{
     position: absolute;
-width: 558px;
-left: 0px;
-top: 0px;
+    width: 558px;
+    left: 0px;
+    top: 0px;
 }
 .right5{
     position: absolute;
-width: 413px;
-left: 877px;
-top: 0px;
+    width: 413px;
+    left: 877px;
+    top: 0px;
 }
 .left5 > p{
     margin-top: 30px;
@@ -407,12 +441,12 @@ top: 0px;
     margin-bottom: 30px;
 }
 .left5 > div > a{
-font-weight: 600;
-font-size: 18px;
-line-height: 30px;
-text-transform: uppercase;
-text-decoration: none;
-color: #1B1B1D;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1B1B1D;
 }
 .right5 > div > a{
     padding-left: 0px;
@@ -423,83 +457,47 @@ color: #1B1B1D;
     text-transform: none;
     text-decoration: none;  
 }
-.buttonnn{
-    background: #FFFFFF;
-    position: absolute;
-    border: 0px;
-    margin-left: 0px;
-}
-.buttonn{
-    background: #FFFFFF;
-    border: 0px;
-    border-radius: 30px;
-    padding: 16px 16px;
-    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
-}
-.button{
-background: #1B1B1D;
-border-radius: 126px;
-padding: 15px 30px;
-color: #FFFFFF;
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-text-transform: uppercase;
-}
-.input{
-width: 413px;
-height: 70px;
-background: #FFFFFF;
-box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
-border-radius: 65px;
-margin-bottom: 30px;
-padding: 30px 20px;
-border: 0px;
-font-weight: 400;
-font-size: 22px;
-line-height: 30px;
-color: #64646A;
-}
 .left5 > h3,
 .right5 > h3{
     font-weight: 800;
 }
-.line{
-position: absolute;
-width: 1290px;
-height: 0px;
-left: 100px;
-top: 4619.18px;
-opacity: 0.1;
-border: 1px solid #1B1B1D;
+.input{
+    width: 413px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 30px rgba(205, 209, 214, 0.28);
+    border-radius: 65px;
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #64646A;
 }
 footer{
     display: flex;
-position: absolute;
-width: 1290px;
-height: 30px;
-left: 100px;
-top: 4659.18px;
+    position: absolute;
+    width: 1290px;
+    height: 30px;
+    left: 100px;
+    top: 4659.18px;
 }
 footer > p{
-font-weight: 400;
-font-size: 22px;
-line-height: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
 }
 footer > p ~ p{
     position: absolute;
     left: 1000px;
 }
-button:hover{
-    background: #EEEFF1;
-    border: 1px;
-}
-a:hover{
-    color:black;
-}
-.left5 > div > a:hover{
-    color: black;
-    }
-.right5 > div > a:hover{
-        color: black; 
+.line{
+    position: absolute;
+    width: 1290px;
+    height: 0px;
+    left: 100px;
+    top: 4619.18px;
+    opacity: 0.1;
+    border: 1px solid #1B1B1D;
 }
